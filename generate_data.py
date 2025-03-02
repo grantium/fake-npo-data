@@ -1266,8 +1266,8 @@ class NonprofitDataGenerator:
         print("Generating pledges...")
         pledges_df, pledge_payments_df = self.generate_pledges()
         
-        # print("Generating donor metrics...")     # Uncomment these two lines if you want a table of metrics with donor acquisition and lapsed donors
-        # donor_metrics_df = self.generate_donor_metrics()
+        print("Generating donor metrics...")     # Uncomment these two lines if you want a table of metrics with donor acquisition and lapsed donors
+        donor_metrics_df = self.generate_donor_metrics()
         
         # Return all the dataframes in a dictionary
         return {
