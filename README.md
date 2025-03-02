@@ -19,4 +19,6 @@ I needed a dataset to practice creating dashboards and couldn't find a good one.
 - Rich transaction data includng customizable funds, campaigns and appeals
 - Adjust campaign response rates and repeat giving percentages
 
+Once settings are adjusted to your liking in the script, it will generate several different csv files suitable for importing into a relational database.
+
 I made heavy use of Claude in generating this.
